@@ -17,7 +17,7 @@ module.exports = class extends Page {
             <h2>${oEntity.title}</h2>
             <p><img src="${oEntity.featured_image}" alt="${oEntity.title}"</p>
             <p>${oEntity.full_description}</p>
-            <form action="https://popupmealsms.herokuapp.com/payment" method="post">
+            <form action="https://serene-taiga-04277.herokuapp.com/payment" method="post">
             <input type="hidden" name="title" value="${oEntity.title}" />
             <input type="hidden" name="price" value="11" />
             <input type="tel" placeholder="enter your number" name="telephone"/>
